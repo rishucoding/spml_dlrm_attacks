@@ -18,3 +18,7 @@ using User Profiles and Posting Patterns](https://arxiv.org/pdf/2106.11815.pdf)
 
 ### [Addra: Metadata-private voice communication over fully untrusted infrastructure, OSDI'21](https://www.usenix.org/conference/osdi21/presentation/ahmad) 
 
+### [One Server for the Price of Two: Simple and Fast Single-Server Private Information Retrieval, USENIX Security'23](https://github.com/ahenzinger/simplepir)
+
+### [PIR in private messaging](https://media.ccc.de/v/36c3-10565-what_s_left_for_private_messaging#t=0)
+
