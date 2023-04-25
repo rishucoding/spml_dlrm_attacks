@@ -10,7 +10,15 @@ from os.path import isfile, join
 
 mypath = '/i3c/hpcl/rzj5233/courses/597-spml/spml_dlrm_attacks/dataset'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
-newfiles = []
+newfiles = ['taobao_dataset_with_orders_male.csv', 'taobao_dataset_with_orders_female.csv',
+            'taobao_dataset_with_orders_age_level_0.csv',
+            'taobao_dataset_with_orders_age_level_1.csv',
+            'taobao_dataset_with_orders_age_level_2.csv',
+            'taobao_dataset_with_orders_age_level_3.csv',
+            'taobao_dataset_with_orders_age_level_4.csv',
+            'taobao_dataset_with_orders_age_level_5.csv',
+            'taobao_dataset_with_orders_age_level_6.csv',
+            ]
 """
 
 for x in onlyfiles:
@@ -19,8 +27,8 @@ for x in onlyfiles:
         newfiles.append(x)
 """
 
-newfiles.append('taobao_dataset_with_orders_male.csv')
 for zz in newfiles:
+    print(f'Begin {zz}')
     df = pd.read_csv(zz)
     df = df.loc[df.duplicated(subset='order_id', keep=False)]
     order_dict = {}
@@ -80,3 +88,5 @@ for zz in newfiles:
 
 # Print the rules
     print(rules)
+
+    print(f'End {zz}')
