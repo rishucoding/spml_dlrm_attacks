@@ -3,11 +3,7 @@ Establishing attacks in DLRM inference
 
 ## Taobao Dataset: https://tianchi.aliyun.com/dataset/dataDetail?dataId=56&lang=en-us
 
-## Steps: 
-1. Download the user_profile.csv.tar.gz and behavior_log.csv.tar.gz
-2. STATIC PROFILING - Creating distribution of brands(items) over attributes(like age or gender) (similar to Figure#4 -- would have lots of entries)
-3. ATTACK CREATION - Using the static distributions, we can create the ambiguity distributions (Figure#5)
+# Steps to run the Association rule mining and Sensitive attribute analysis++:
+We use Jupyter Notebook and conda environment to run the programming for the project. These are the main files required for sensitive attribute attack. Make sure buy_behavior_log and user_profile are in same location as SPML_two_brand_analysis and SPML_three_brand_analysis are there together. This will ensure you will get complete analysis of ambiguity values and how they were found. 
 
-## TODO: 
-1. Recreate the attack and validate with the results shown in the paper.(Figure#5)
-2. Use the intersection operation to improve the attack.
+Similarly, for association rule mining analysis locate the taobao_dataset_with_orders**** , keep them in same location. Ensure relative path if issues arise. 
