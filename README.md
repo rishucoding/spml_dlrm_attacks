@@ -8,5 +8,5 @@ We use Jupyter Notebook and conda environment to run the programming for the pro
 
 Similarly, for association rule mining analysis locate the taobao_dataset_with_orders**** , keep them in same location. Ensure relative path if issues arise. 
 
-The scripts to run association rule mining are in ARM_analysis_scripts folder. These can be directly executed. mlxtend package needs to be installed to run apriori for association rule mining. 
+The scripts to run association rule mining are in ARM_analysis_scripts folder. It also contains the scripts used to generate and evaluate the results. These can be directly executed. mlxtend package needs to be installed to run apriori for association rule mining. 
 All the generated datasets and analysis results are present in dataset and dataset/logs folder respectively.
